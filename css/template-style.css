@@ -1552,8 +1552,8 @@ nav {
   -webkit-transform:translateY(-10px) rotate(-135deg);
 }
 .aside-nav.slide-nav {
-  background:#282828;
-  padding-top:0;
+	background: #ffffff;
+	padding-top: 0;
 }
 .aside-nav.slide-nav > ul {
   background:#282828;
