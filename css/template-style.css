@@ -1708,7 +1708,7 @@ a.text-tag:link:hover {
 .primary-color-yellow .background-primary .h1, .primary-color-yellow .background-primary .h2, .primary-color-yellow .background-primary .h3, .primary-color-yellow .background-primary .h4, .primary-color-yellow .background-primary .h5, .primary-color-yellow .background-primary .h6,
 .background-yellow, .background-yellow p, a.background-yellow, a.background-yellow:visited, a.background-yellow:link, .background-yellow a, .background-yellow a:link, .background-yellow a:visited, .background-yellow a:hover, .background-yellow a:active,
 .primary-color-yellow .background-primary, .primary-color-yellow .background-primary p, .primary-color-yellow a.background-primary, .primary-color-yellow a.background-primary:visited, .primary-color-yellow a.background-primary:link, .primary-color-yellow .background-primary a, .primary-color-yellow .background-primary a:link, .primary-color-yellow .background-primary a:visited, .primary-color-yellow .background-primary a:hover, .primary-color-yellow .background-primary a:active {
-  color: #282828;
+	color: #282828;
 } 
 .text-dark, .text-dark *, .primary-color-dark .text-primary, .primary-color-dark .text-primary * {
   color: #282828 !important;
