@@ -640,6 +640,7 @@ a {
   .darkmode--activated .resume-item .date,
   .darkmode--activated .resume-item .school,
   .darkmode--activated .site-section p,
+  .darkmode--activated .li-address,
   .darkmode--activated .site-section .form-control::placeholder{
     color: #404040 !important;
   }
@@ -654,18 +655,22 @@ a {
   
   {
     background-color: #FFFCF8;
-    outline: 1px solid #acacac  !important;
+    /* outline: 1px solid #acacac  !important; */
+    box-shadow:
+  0px 0.8px 2.1px rgba(0, 0, 0, 0.04),
+  0px 6px 17px rgba(0, 0, 0, 0.08)
+;
   }
   .darkmode--activated .site-section .block-47-quote::before {
     content: "";
-    border: 1px solid red;
+    /* border: 1px solid red; */
     z-index: 2;
     position: absolute;
     left: -15px;
     border-width: 0 20px 20px 0;
     border-style: solid;
     border-color: transparent #fff transparent transparent;
-    border-top: 1px solid #acacac !important;
+    /* border-top: 1px solid #acacac !important; */
    }
  /* Logos for as seen on */
  .logo {

@@ -367,9 +367,8 @@ var imageCollection = [
 var imageHero = document.getElementById('section-home')
 
 imageHero.style.backgroundImage = `url(${imageCollection[0]})`
-// console.log(imageHero.style.backgroundImage = `url(${imageCollection[0]})`)
 setInterval(() => {
 	var randomNum = Math.floor(Math.random() * 7);
-	console.log(randomNum)
+	// console.log(randomNum)
 	imageHero.style.backgroundImage = `url(${imageCollection[randomNum]})`
 }, 5000);
