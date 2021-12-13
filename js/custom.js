@@ -354,7 +354,7 @@ button.onclick = function() {
 window.open('/archive.html', '_blank');
 }
 var imageCollection = [
-	'../images/hero/headerimg1.webp !important',
+	'../images/hero/headerimg1.webp',
 	'../images/hero/headerimg2.webp',
 	'../images/hero/headerimg3.webp',
 	'../images/hero/headerimg4.webp',
