@@ -141,9 +141,12 @@ a {
         color: #bac964 !important; }
     .site-navbar.scrolled .navbar-nav > li.active > a {
       color: #bac964 !important; }
-
+@media (max-width: 768px) {
+  .site-hero {    
+    background-image: url('../images/hero/headerimg1.webp') !important;
+  }
+}
 .site-hero {
-  /* background-image: url('../images/hero/headerimg1.webp') !important; */
   background-color: #ccc;
   background-size: center;
   transition: 1.5s !important;
