@@ -143,10 +143,10 @@ a {
       color: #bac964 !important; }
 
 .site-hero {
-  background-image: url('../images/hero/headerimg1.webp') !important;
+  /* background-image: url('../images/hero/headerimg1.webp') !important; */
   background-color: #ccc;
   background-size: center;
-  transition: 1s !important;
+  transition: 2s !important;
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
