@@ -34,26 +34,29 @@
 					<li class="nav-item"><a class="nav-link" href="#section-resume">Resume</a></li>
 					<li class="nav-item"><a class="nav-link" href="#section-about">About</a></li>
 					<li class="nav-item"><a class="nav-link" href="#section-contact">Contact</a></li>
+					<li class="nav-item"><a class="nav-link" id="archive" target="_blank" href="archive.html">Archive</a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
-
-
-
-
-	<section class="site-hero" style="background-image: url(images/image_1.jpg);" id="section-home" data-stellar-background-ratio="0.5">
+	
+	
+	
+	
+	<!-- Hero section -->
+	<section class="site-hero" id="section-home" data-stellar-background-ratio="0.5">
 		<div class="container">
 			<div class="row intro-text align-items-center justify-content-center">
 				<div class="col-md-10 text-center pt-5">
 
 					<h1 class="site-heading site-animate">Hello, I'm <strong class="d-block">Azuka Muoh</strong></h1>
-					<strong class="d-block text-white text-uppercase letter-spacing">I'm an artist/designer</strong>
+					<strong class="d-block text-white text-uppercase letter-spacing">Contemporary Artist. Film Director.</strong>
 
 				</div>
 			</div>
 		</div>
-	</section> <!-- section -->
+	</section> 
+	<!-- section -->
 
 
 
@@ -61,205 +64,204 @@
 
 
 	<section class="site-section" id="section-portfolio">
+		<div class="section-heading text-center col-md-12">
+			<h2>Featured <strong>Portfolio</strong></h2>
+		</div>
+		<div class="filters">
+			<ul>
+				<li class="active " onClick="openContent('art')">ART</li>
+				<li class="" onClick="openContent('film')">FILM</li>
+			</ul>
+		</div>
 		<div class="container">
-			<div class="row">
-				<div class="section-heading text-center col-md-12">
-					<h2>Featured <strong>Portfolio</strong></h2>
-				</div>
-			</div>
-			<div class="filters">
-				<ul>
-					<li class="active" data-filter="*">Di Okpara</li>
-					<li data-filter=".packaging">Digital Art</li>
-					<li data-filter=".mockup">Posters</li>
-					<li data-filter=".typography">Motion</li>
-					<li data-filter=".photography">Archive</li>
-				</ul>
-			</div>
-
-			<div class="filters-content">
-				<div class="row grid">
-					<div class="single-portfolio col-sm-4 all mockup">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="images/p1.jpg" alt="">
-							</div>
-							<a href="images/p1.jpg" class="img-pop-up">  
-								<div class="middle">
-									<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
-								</div>
-							</a>                                  
+			
+			<div class="row grid content" id="art">
+				<div class="single-portfolio col-sm-4 all mockup">
+					<div class="relative">
+						<div class="thumb">
+							<div class="overlay overlay-bg"></div>
+							<img class="image img-fluid" src="images/artworks/01.webp" alt="A Space For Me 2021">
 						</div>
-						<div class="p-inner">
-							<h4><a href="https://arrestingyellow.github.io/betterhairforyou">Better Hair For You</a></h4>
-							<div class="cat">2020</div>
-						</div>                                         
+						<!-- <a href="images/p1.jpg" class="img-pop-up">
+							<div class="middle">
+								<div class="text align-self-center d-flex"><img src="images/artworks/02.jpg" alt="Bigi Man 2020"></div>
+							</div>
+						</a> -->
 					</div>
-					<div class="single-portfolio col-sm-4 all mockup">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="images/p2.jpg" alt="">
-							</div>
-							<a href="images/p2.jpg" class="img-pop-up">  
-								<div class="middle">
-									<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
-								</div>
-							</a>                                  
-						</div>
-						<div class="p-inner">
-							<h4><a href="https://1938co.art">1938co</a></h4>
-							<div class="cat">2020</div>
-						</div>                                         
-					</div>                            
-					<div class="single-portfolio col-sm-4 all packaging">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="images/p3.jpg" alt="">
-							</div>
-							<a href="images/p3.jpg" class="img-pop-up">  
-								<div class="middle">
-									<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
-								</div>
-							</a> 
-
-						</div>
-						<div class="p-inner">
-							<h4><a href="https://joascents.com">Joa</a></h4>
-							<div class="cat">2020</div>
-						</div>
-					</div>
-					<div class="single-portfolio col-sm-4 all packaging">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="images/p4.jpg" alt="">
-							</div>
-							<a href="images/p4.jpg" class="img-pop-up">  
-								<div class="middle">
-									<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
-								</div>
-							</a>                                
-						</div> 
-						<div class="p-inner">
-							<h4>Renue</h4>
-							<div class="cat">2020</div>
-						</div>
-					</div>
-					<div class="single-portfolio col-sm-4 all typography">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="images/p5.jpg" alt="">
-							</div>
-							<a href="images/p5.jpg" class="img-pop-up">  
-								<div class="middle">
-									<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
-								</div>
-							</a>                                
-						</div>
-						<div class="p-inner">
-							<h4><a href="https:/joascents.com">Joa</a></h4>
-							<div class="cat">2020</div>
-						</div>
-					</div>
-					<div class="single-portfolio col-sm-4 all photography">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="images/p6.jpg" alt="">
-							</div>
-							<a href="images/p6.jpg" class="img-pop-up">  
-								<div class="middle">
-									<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
-								</div>
-							</a>                                
-						</div>
-						<div class="p-inner">
-							<h4>Ann's</h4>
-							<div class="cat">2019</div>
-						</div>
+					<div class="p-inner">
+						<h4><a href="https://arrestingyellow.github.io/betterhairforyou">A Space For Me 2021</a></h4>
+						<div class="cat">2021</div>
 					</div>
 				</div>
+
+				<div class="single-portfolio col-sm-4 all mockup">
+					<div class="relative">
+						<div class="thumb">
+							<div class="overlay overlay-bg"></div>
+							<img class="image img-fluid" src="images/artworks/02.webp" alt="">
+						</div>
+						<!-- <a href="images/p2.jpg" class="img-pop-up">
+							<div class="middle">
+								<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+							</div>
+						</a> -->
+					</div>
+					<div class="p-inner">
+						<h4><a href="https://1938co.art">Bigi Man 2020</a></h4>
+						<div class="cat">2020</div>
+					</div>
+				</div>
+
+				<div class="single-portfolio col-sm-4 all packaging">
+					<div class="relative">
+						<div class="thumb">
+							<div class="overlay overlay-bg"></div>
+							<img class="image img-fluid" src="images/artworks/03.webp" alt="">
+						</div>
+						<!-- <a href="images/p3.jpg" class="img-pop-up">
+							<div class="middle">
+								<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+							</div>
+						</a> -->
+					</div>
+					<div class="p-inner">
+						<h4><a href="https://joascents.com">Na Man I be 2020</a></h4>
+						<div class="cat">2020</div>
+					</div>
+				</div>
+				<div class="single-portfolio col-sm-4 all packaging">
+					<div class="relative">
+						<div class="thumb">
+							<div class="overlay overlay-bg"></div>
+							<img class="image img-fluid" src="images/artworks/04.webp" alt="">
+						</div>
+						<!-- <a href="images/p4.jpg" class="img-pop-up">
+							<div class="middle">
+								<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+							</div>
+						</a> -->
+					</div>
+					<div class="p-inner">
+						<h4><a href="https://joascents.com">Omuma</a></h4>
+						<div class="cat">2021</div>
+					</div>
+				</div>
+				<div class="single-portfolio col-sm-4 all typography">
+					<div class="relative">
+						<div class="thumb">
+							<div class="overlay overlay-bg"></div>
+							<img class="image img-fluid" src="images/artworks/05.webp" alt="">
+						</div>
+						<!-- <a href="images/artworks/05.jpg" class="img-pop-up">
+							<div class="middle">
+								<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+							</div>
+						</a> -->
+					</div>
+					<div class="p-inner">
+						<h4><a href="https:/joascents.com">The Bad Men Are Coming</a></h4>
+						<div class="cat">2021</div>
+					</div>
+				</div>
+				<div class="single-portfolio col-sm-4 all photography">
+					<div class="relative">
+						<div class="thumb">
+							<div class="overlay overlay-bg"></div>
+							<img class="image img-fluid" src="images/artworks/06.webp" alt="">
+						</div>
+						<!-- <a href="images/p6.jpg" class="img-pop-up">
+							<div class="middle">
+								<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+							</div>
+						</a> -->
+					</div>
+					<div class="p-inner">
+						<h4><a href="https://joascents.com">The Whistleblower</a></h4>
+						<div class="cat">2021</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row grid content " id="film" style="display: none;" >
+				<div class="d-flex flex-md-row flex-column col-12">
+						<div class="col-12 col-md-6 col-lg-6 flex-grow-0">
+							<iframe style="width: 100%; height: 315px;" 
+							src="https://www.youtube.com/embed/BZAaj6Sb8hg?autoplay=1&mute=1">
+						</iframe>
+					</div>
+					
+					<div class="col-12 col-md-6 col-lg-6 flex-grow-1">
+					<iframe style="width: 100%; height: 315px;" 
+					src="https://www.youtube.com/embed/6PuV6lk8Lfk">
+				</iframe>
 			</div>
 		</div>
+				
+		</div>
+	
 	</section>
 	<!-- .section -->
-
+	
 	
 	<section class="site-section " id="section-resume">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 mb-5">
+				<div class="col-md-12 mb-2">
 					<div class="section-heading text-center">
 						<h2>My <strong>Resume</strong></h2>
 					</div>
 				</div>
 				<div class="col-md-6">
-					<h2 class="mb-5">Skills</h2>
+				
+					<h2 class="mb-5" style="visibility: hidden;">MY RESUME</h2>
 					<div class="resume-item mb-4">
-						<span class="date"><span class="icon-calendar"></span> 2016</span>
-						<h3>Photography/Video and Post Production</h3>
-						<p>RCCG Chosen Generation Church</p>
-						<p>&nbsp;</p>
+						<span class="date"><span class="icon-calendar"></span> 2020, Group Show</span>
+						<h3><a href="/" target="_blank">The Stories We Tell</a></h3>
+						<p>What If Hub</p>
+						<p style="color: #B2C061;">Lagos, Nigeria</p>
 					</div>
-
+					
 					<div class="resume-item mb-4">
-						<span class="date"><span class="icon-calendar"></span> 2017</span>
-						<h3>Design and New Media Art</h3>
-					  <p>I've been a traditional artist since 2010, and I adopted digital mediums in 2017. I currently create limited edition print and blockchain art. </p>
-						<p><a href="https://instagram.com/arrestingyellow">Makers Place</a></p>
+						<span class="date"><span class="icon-calendar"></span>2021, Group show</span>
+						<h3><a href="https://www.aspireluxurymag.com/framing-her-an-art-exhibition-from-gaia-africa-and-aworanka/" target="_blank">Framing Her- Aworanka</a></h3>
+						<p>Gaia Africa Club</p>
+						<p style="color: #B2C061;">Lagos, Nigeria</p>
+						
 					</div>
-
+					
 					<div class="resume-item mb-4">
-						<span class="date"><span class="icon-calendar"></span> 2016</span>
-						<h3>Copywriting</h3>
-						<p>I write poetry, short stories and e-mail/marketing copy for businesses.</p>
-						<p><a href="https://arrestingyellow.github.io/betterhairforyou">Better Hair For You</a></p>
+						<span class="date"><span class="icon-calendar"></span> 2021, Group show</span>
+						<h3><a href="https://www.instagram.com/bettershared/tv/CVQlSWSFXQb/?utm_medium=copy_link" target="_blank">Uber Art Install</a></h3>
+						<p>BetterShared </p>
+						<p style="color: #B2C061;">	Uber HQ, London</p>
 					</div>
-
-					<div class="resume-item mb-4">
-						<span class="date"><span class="icon-calendar"></span>September 2018-2022</span>
-						<h3>Bachelor of Arts (Fine and Applied Arts)</h3>
-						<p>I currently go here and major in graphic design.</p>
-						<span class="school">University of Benin</span>
-					</div>
-
+					
 				</div>
 				<div class="col-md-6">
-
-
-					<h2 class="mb-5">Practices</h2>
+					<h2 class="mb-5" style="visibility: hidden;">Practices</h2>
 
 					<div class="resume-item mb-4">
-						<span class="date"><span class="icon-calendar"></span> 2018</span>
-						<h3>Graphic Design Intern, Wildreams</h3>
-						<p>Worked with briefs and content to create informative social media designs for brands such as Campari Nigeria </p>
-						<span class="school"><a href="https://www.wildreams.co">Wildreams</a></span>
+						<span class="date"><span class="icon-calendar"></span> 2021, Film Direction</span>
+						<!-- <h3><a href="/" target="_blank">The Stories We Tell</a></h3> -->
+						<h3><a href="https://youtu.be/BZAaj6Sb8hg" target="_blank">Dr. Akpofure</a></h3>
+						<p style="color: #B2C061;">	Lagos, Nigeria</p>
+						
 					</div>
-
+					
 					<div class="resume-item mb-4">
-						<span class="date"><span class="icon-calendar"></span> December 2019</span>
-						<h3>Motion Graphic Designer, Schucks Media</h3>
-						<p>Translated voice overs to animated infographic videos for Apex Nigeria.</p>
-						<span class="school"><a href="https://www.schucksmedia.com">Schucks Media</a></span>
+						<span class="date"><span class="icon-calendar"></span> 2021, Film Direction</span>
+						<h3><a href="/" target="_blank">Eyowo Unveil Commercial</a></h3>
+						
+						<p style="color: #B2C061;">	Lagos, Nigeria</p>
 					</div>
-
+					
+					
 					<div class="resume-item mb-4">
-						<span class="date"><span class="icon-calendar"></span> June 2020- Present</span>
-						<h3>Brand Designer, Digxital</h3>
-						<p>Creates visual representation of brand identities such as The Sweet Layers Factory and CroxxTalents with posters and motion graphics.</p>
-						<span class="school"><a href="https://www.digxital.croxxtalent.io">Digxital</a></span>
+						<span class="date"><span class="icon-calendar"></span> 2021, Film Direction</span>
+						<h3><a href="https://youtu.be/6PuV6lk8Lfk" target="_blank">Ogonnah & Emeke Wedding Trailer </a></h3>
+						
+						<p style="color: #B2C061;">	PortHarcourt, Nigeria</p>
 					</div>
-
-					<div class="resume-item mb-4">
-						<span class="date"><span class="icon-calendar"></span> January 2020- Present</span>
-						<h3>Creative Lead, The 1938 Collective</h3>
-						<p>Creates and supervises all visual brand identity elements and general art direction<span class="school"><a href="https://www.1938co.art">1938co</a></span>					    </p>
-					</div>
-
 
 				</div>
 			</div>
@@ -274,10 +276,19 @@
 				</div>
 				<div class="col-lg-5 pl-lg-5">
 					<div class="section-heading">
-						<h2>Artist <strong>Statement</strong></h2>
+						<h2>About <strong>Azu</strong></h2>
 					</div>
 				
-					<p class="mb-5">I'm a native of Eastern Nigeria, it is a beautiful place. Stories from my parents' childhood, our native foods, african literature; they reveal to me how easily beauty and chaos can lay side by side in a culture, defining our collective identity as a people, but ruining the subconscious and uniqueness of each individual. We don't have to do that. We do not have to lose ourselves to define ourselves. <br/> I very carefully, question society's perception of masculinity. Stereotypes and our false, twisted interpretation of this gender is at the centre of many vices in the human condition. I believe by putting provocation, before consequence and/or result we can alter results. </p>
+					<p class="mb-5">Azuka Muoh was born in Lagos, Nigeria in 2000. 
+						
+						<br/>
+						Starting her career as a graphic and motion
+						designer, Muoh has amassed a number of skills along the way. Depicting the human condition, cultural oppression
+						and navigating new masculinity in the 21st century, Azuka ties her practice of surrealistic art and filmmaking into a
+						single mantra; 
+						<br>
+						 <strong>Changing The Order.</strong>
+						 </p>
 
 					<p>
 						<a href="#section-contact" class="btn btn-primary px-4 py-2 btn-sm smoothscroll">work with me</a>
@@ -297,6 +308,19 @@
 					<div class="section-heading text-center">
 						<h2><strong>Acclaim</strong></h2>
 					</div>
+					<em>
+						"Azuka's incredibly thoughtful answers gave me a lot to consider. The thesis of her approach seems to be in this concept of changing the order. <br>
+ By changing the order of images creating that element of surreality, Azuka challenges the order of her reality as well. The link to activism and changemaking becomes so clear!
+ <br><br>
+ 
+Azuka's work is heavily influenced by her life. But it doesn't only reflect. It distorts, and in doing so, it upends the societal narratives of marginalization. 
+In Azuka's work, the semiotic process relies on confusion to succeed. It is her approach to habitus that I believe ties everything together.  In this way, the semiotic process plays a large part in her work as well.
+It is important to her what her audience will think of when they see her art.  It is important to her what it provokes and what it calls into question.
+The transmission of meaning is a key element to the intentions of her art, and the distortion is a key element of that transmission."
+<br> 
+-Andrew Kelly, Capybara Press
+
+					</em>
 				</div>
 			</div>
 			<div class="row">
@@ -371,57 +395,34 @@ Very patient with me, very clear about deliverables and just a great person to w
 			<div class="row">
 				<div class="col-md-12 mb-5">
 					<div class="section-heading text-center">
-						<h2>Blog on <strong>Medium</strong></h2>
+						<h2>As Seen <strong>On</strong></h2>
 					</div>
 				</div>
 			</div>
 
-			<div class="row">
-				<div class="col-sm-6 col-lg-4 mb-4">
-					<div class="blog-entry">
-						<a href="#"><img src="images/post_1.jpg" alt="Image placeholder" class="img-fluid"></a>
-						<div class="blog-entry-text">
-							<h3><a href="https://bit.ly/33BgyFq">Uwa Niile Na ele Anya (The whole world is watching)</a></h3>
-							<p class="mb-4">Uwa. Tina. Me. Your Daughter. We are surrounded by the patriarchy</p>
-
-							<div class="meta">
-								<a href="#"><span class="icon-calendar"></span> Sept 18, 2020</a>
-								<a href="#"><span class="icon-bubble"></span> 0 Comments</a>
-							</div>
-						</div>
-					</div>
+			<div class="d-flex flex-wrap flex-column flex-md-row">
+				<div class="col-md-3 py-5 py-md-0 col-12 col-sm-8 mx-auto">
+					<span class="logo col-12"></span>
 				</div>
-
-				<div class="col-sm-6 col-lg-4 mb-4">
-					<div class="blog-entry">
-						<a href="#"><img src="images/post_2.jpg" alt="Image placeholder" class="img-fluid"></a>
-						<div class="blog-entry-text">
-							<h3><a href="https://medium.com/@arrestingyellow/the-artist-designer-6956ad426068">The Artist turned Designer</a></h3>
-							<p class="mb-4">Art is one thing, design is another. Artists are naturally designers. Their good eye for composition and white space, as well as...</p>
-
-							<div class="meta">
-								<a href="#"><span class="icon-calendar"></span> Aug 4, 2020</a>
-								<a href="#"><span class="icon-bubble"></span> 0 Comments</a>
-							</div>
-						</div>
-					</div>
+				<div class="col-md-3 py-5 py-md-0 col-12 col-sm-8 mx-auto">
+					<span class="logo1 col-12"></span>
 				</div>
-
-				<div class="col-sm-6 col-lg-4 mb-4">
-					<div class="blog-entry">
-						<a href="#"><img src="images/post_3.jpg" alt="Image placeholder" class="img-fluid"></a>
-						<div class="blog-entry-text">
-							<h3><a href="#">Art After Covid</a></h3>
-							<p class="mb-4">The Covid-19 virus has been devastating to our global community— the world economies...</p>
-
-							<div class="meta">
-								<a href="#"><span class="icon-calendar"></span> Aug 7, 2020/a>
-								<a href="#"><span class="icon-bubble"></span> 0 Comments</a>
-							</div>
-						</div>
-					</div>
+				<div class="col-md-2 py-5 py-md-0 col-9 mx-auto">
+					<span class="logo2 col-10"></span>
 				</div>
-
+				<div class="col-md-2 py-5 py-md-0 col-12 col-sm-8 mx-auto">
+					<span class="logo3 col-11"></span>
+				</div>
+				<div class="col-md-3 py-5 py-md-0 col-12 col-sm-8 mx-auto">
+					<span class="logo4 col-12"></span>
+				</div>
+				<div class="col-md-3 py-5 col-12">
+					<span class="logo5 col-12"></span>
+				</div>
+				<div class="col-md-3 py-5 col-12">
+					<span class="logo6 col-12"></span>
+				</div>
+				
 			</div>
 		</div>
 	</section>
@@ -456,10 +457,10 @@ Very patient with me, very clear about deliverables and just a great person to w
 					</form>
 				</div>
 				<div class="col-md-5 pl-md-5">
-					<h3 class="mb-5">My Contact Details</h3>
+					<h3 class="mb-5">Purchase My Work</h3>
 					<ul class="site-contact-details">
 						<li>
-							<span class="text-uppercase">Email</span><a href="mailto:azukamuoh@gmail.com">
+							<span class="text-uppercase">Prints</span><a href="mailto:azukamuoh@gmail.com">
 							azukamuoh@gmail.com</a>
 						</li>
 						<li>
@@ -467,7 +468,7 @@ Very patient with me, very clear about deliverables and just a great person to w
 							+234 812 924 1494</a>
 						</li>
 						<li>
-							<span class="text-uppercase">Purchase my work on the Blockchain</span><a href="https://makersplace.com/azukamuoh">
+							<span class="text-uppercase">NFTs</span><a href="https://makersplace.com/azukamuoh">
 							MakersPlace</a>
 						</li>
 						<li>
@@ -477,7 +478,7 @@ Very patient with me, very clear about deliverables and just a great person to w
 					</ul>
 					<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSffiUAOsXTYzhKhWTTZPUwfIJPCt7okVZ_kDKkV7kzBADxhkA/viewform?embedded=true" width="300" height="200" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 				</div>
-			</div>
+			</div> 
 		</div>
 	</section>
 
@@ -488,7 +489,7 @@ Very patient with me, very clear about deliverables and just a great person to w
 			<div class="row mb-5">
 				<p class="col-12 text-center">
 					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-					Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true" ></i> by <a href="https://colorlib.com" target="_blank" class="text-primary">Colorlib</a>
+					<!-- Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true" ></i> by <a href="https://colorlib.com" target="_blank" class="text-primary">Colorlib</a> -->
 					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 				</p>
 			</div>
@@ -496,11 +497,11 @@ Very patient with me, very clear about deliverables and just a great person to w
 			<div class="row mb-5">
 				<div class="col-md-12 text-center">
 					<p>
-						<a href="https://www.facebook.com/azukamuoh" class="social-item"><span class="icon-facebook2"></span></a>
+						<!-- <a href="https://www.facebook.com/azukamuoh" class="social-item"><span class="icon-facebook2"></span></a> -->
 						<a href="https://www.twitter.com/arrestingyellow" class="social-item"><span class="icon-twitter"></span></a>
 						<a href="https://www.instagram.com/arrestingyellow" class="social-item"><span class="icon-instagram2"></span></a>
 						<a href="https://www.linkedin.com/azukamuoh" class="social-item"><span class="icon-linkedin2"></span></a>
-						<a href="https://www.vimeo.com/arrestingyellow" class="social-item"><span class="icon-vimeo"></span></a>
+						<!-- <a href="https://www.vimeo.com/arrestingyellow" class="social-item"><span class="icon-vimeo"></span></a> -->
 					</p>
 				</div>
 			</div>
@@ -524,6 +525,29 @@ Very patient with me, very clear about deliverables and just a great person to w
 	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 	<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
 	<script src="js/custom.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script>
+ 
+  const options = {
+  bottom: '64px', // default: '32px'
+  right: '32px', // default: '32px'
+  left: 'unset', // default: 'unset'
+  time: '0.5s', // default: '0.3s'
+  mixColor: '#fff', // default: '#fff'
+  backgroundColor: '#222',  // default: '#fff'
+  buttonColorDark: '#100f2c',  // default: '#100f2c'
+  buttonColorLight: '#222', // default: '#fff'
+  saveInCookies: false, // default: true,
+  label: '🌓', // default: ''
+  autoMatchOsTheme: true // default: true
+//   zIndex: 99
+}
+
+const darkmode = new Darkmode(options);
+darkmode.showWidget();
+
+
+</script>
 
 	<!-- Google Map -->
     <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>

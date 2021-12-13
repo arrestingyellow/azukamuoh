@@ -1,7 +1,7 @@
 body {
   background: #fff;
   color: rgba(255, 255, 255, 0.4);
-  background: #222;
+  background: #222 !important;
   line-height: 1.7;
   font-size: 16px;
   font-weight: 300; }
@@ -15,6 +15,7 @@ body {
   background: -moz-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
   background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
   background: -ms-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
@@ -142,8 +143,10 @@ a {
       color: #bac964 !important; }
 
 .site-hero {
+  /* background-image: url('../images/hero/headerimg1.webp') !important; */
   background-color: #ccc;
-  background-size: cover;
+  background-size: center;
+  transition: 1s !important;
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
@@ -606,7 +609,8 @@ a {
   border-radius: 7px;
   position: relative;
   -webkit-box-shadow: 0 2px 30px -2px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 2px 30px -2px rgba(0, 0, 0, 0.1); }
+  box-shadow: 0 2px 30px -2px rgba(0, 0, 0, 0.1);
+ }
   .block-47 .block-47-quote:before {
     content: "";
     border: 1px solid red;
@@ -615,7 +619,8 @@ a {
     left: -15px;
     border-width: 0 20px 20px 0;
     border-style: solid;
-    border-color: transparent #333 transparent transparent; }
+    border-color: transparent #333 transparent transparent;
+   }
   .block-47 .block-47-quote .block-47-quote-author {
     font-size: 14px;
     color: #666666; }
@@ -623,3 +628,76 @@ a {
 .letter-spacing {
   letter-spacing: .2rem;
   color: rgba(255, 255, 255, 0.5) !important; }
+
+  /* Darkmode */
+  .darkmode-toggle {
+    z-index: 99 !important;
+  }
+  .darkmode--activated .site-section h2,
+  .darkmode--activated h4, 
+  .darkmode--activated h3, 
+  .darkmode--activated .resume-item p,
+  .darkmode--activated .resume-item .date,
+  .darkmode--activated .resume-item .school,
+  .darkmode--activated .site-section p,
+  .darkmode--activated .site-section .form-control::placeholder{
+    color: #404040 !important;
+  }
+  .darkmode--activated section,  
+  .darkmode--activated footer {
+    background-color: #000307 !important;
+  }
+  .darkmode--activated .resume-item,
+  .darkmode--activated .site-section .block-47-quote,
+  .darkmode--activated .site-section .form-control,
+  .darkmode--activated .social-item
+  
+  {
+    background-color: #FFFCF8;
+    outline: 1px solid #acacac  !important;
+  }
+  .darkmode--activated .site-section .block-47-quote::before {
+    content: "";
+    border: 1px solid red;
+    z-index: 2;
+    position: absolute;
+    left: -15px;
+    border-width: 0 20px 20px 0;
+    border-style: solid;
+    border-color: transparent #fff transparent transparent;
+    border-top: 1px solid #acacac !important;
+   }
+ /* Logos for as seen on */
+ .logo {
+   content: url('../images/logos/Aworanka.jpg');
+ }
+ .logo1 {
+   content: url('../images/logos/beopenartwhite.png');
+ }
+ .darkmode--activated .logo1 {
+   content: url('../images/logos/beopenart.png');
+ }
+ .logo2 {
+   content: url('../images/logos/bettersharedwhite.png');
+  }
+  .darkmode--activated .logo2 {
+    content: url('../images/logos/bettershared.png');
+  }
+ .logo3 {
+   content: url('../images/logos/capybarapress.jpeg');
+ }
+ .logo4 {
+   content: url('../images/logos/framedgallery.png');
+ }
+ .logo5 {
+   content: url('../images/logos/makersplacewhite.png');
+ }
+ .darkmode--activated .logo5 {
+  content: url('../images/logos/makersplace.png');
+}
+ .logo6 {
+   content: url('../images/logos/vitaviegallerywhite.png');
+ }
+ .darkmode--activated .logo6 {
+  content: url('../images/logos/vitaviegallery.png');
+}

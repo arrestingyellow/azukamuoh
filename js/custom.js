@@ -292,30 +292,30 @@
 
 
 
-	var portfolioMasonry = function() {
- $('.filters ul li').click(function(){
-        $('.filters ul li').removeClass('active');
-        $(this).addClass('active');
+// 	var portfolioMasonry = function() {
+//  $('.filters ul li').click(function(){
+//         $('.filters ul li').removeClass('active');
+//         $(this).addClass('active');
         
-        var data = $(this).attr('data-filter');
-        $grid.isotope({
-          filter: data
-        })
-      });
+//         var data = $(this).attr('data-filter');
+//         $grid.isotope({
+//           filter: data
+//         })
+//       });
 
 
-      if(document.getElementById("section-portfolio")){
-            var $grid = $(".grid").isotope({
-              itemSelector: ".all",
-              percentPosition: true,
-              masonry: {
-                columnWidth: ".all"
-              }
-            })
-      };
+//       if(document.getElementById("section-portfolio")){
+//             var $grid = $(".grid").isotope({
+//               itemSelector: ".all",
+//               percentPosition: true,
+//               masonry: {
+//                 columnWidth: ".all"
+//               }
+//             })
+//       };
 
 
-	};
+// 	};
 
 
 	$(function(){
@@ -326,7 +326,7 @@
 		navbarState();
 		clickMenu();
 		smoothScroll();
-		portfolioMasonry();
+		// portfolioMasonry();
 	});
 
 	
@@ -334,3 +334,45 @@
 
 })();
 
+// Function fot tabSlider 
+function openContent(tab) {
+	var i;
+	var x = document.getElementsByClassName("content");
+	for (i = 0; i < x.length; i++) {
+	  x[i].style.display = "none";  
+	}
+	document.getElementById(tab).style.display = "flex";  
+  }
+
+
+// Redirecting using archive button
+var button = document.getElementById('archive');
+button.onclick = function() {
+	// Routing on same page
+//   location.assign('/archive.html');
+// To different Location
+window.open('/archive.html', '_blank');
+}
+var imageCollection = [
+	'../images/hero/headerimg1.webp',
+	'../images/hero/headerimg2.webp',
+	'../images/hero/headerimg3.webp',
+	'../images/hero/headerimg4.webp',
+	'../images/hero/headerimg5.webp',
+	'../images/hero/headerimg6.webp',
+	'../images/hero/headerimg7.webp',
+	'../images/hero/headerimg8.webp',
+]
+// For changing Hero image
+var imageHero = document.getElementById('section-home')
+
+for (let i = 0; i < imageCollection.length; i++) {
+	// const element = array[i];
+	
+}
+
+imageHero.style.backgroundImage = `url(${imageCollection[0]})`
+setInterval(() => {
+	var randomNum = Math.floor(Math.random() * 7);
+	imageHero.style.backgroundImage = `url(${imageCollection[randomNum]})`
+}, 3000);

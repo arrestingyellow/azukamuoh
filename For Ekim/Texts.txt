@@ -1,0 +1,98 @@
+MENU
+Home, works, resume, about, contact, archive.
+Archive should have a drop down menu with art and film. whichever they click will take them to the respective archive page.
+Alternatively, it can be without a drop down, and take them to a single page (which we'll do later) that has an art and film tab that can be switched between. - D
+
+
+HEADER SECTION
+Hello, I'm Azuka Muoh -D
+Contemporary Artist. Film Director.- D
+The image under should be changing at random (3 secs). I added the pictures I want there in the folder. - D
+If this is stressful please leave it and use just the first image.
+
+
+FEATURED PORTFOLIO
+All artworks should have their title and year written under them. At the centre there should be a button that says art archive. -D
+This button will take you to an archive of artworks. Under the film tab too, there should be a film archive button that takes you to an archive of film works.
+However if we don't do the drop down menu, we'll stick to one archive page with an art and film tab. What do you think?
+The artworks are in the folder. Here are the links for the films:
+
+https://youtu.be/BZAaj6Sb8hg - D
+https://youtu.be/6PuV6lk8Lfk - D
+
+If we do these buttons then we'll have to take out the archive tab. What do you think?
+Quick question: Do you think the film tab should come before the art tab? Which one should show first?
+
+
+MY RESUME
+Remove Skils and Practices. The first three should be on the left side, with the rest on the right side.
+Where the link is empty means I don't have it yet
+
+2020, Group Show
+The Stories We Tell (in green text. This is a hyperlink:)
+What If Hub (in white text)
+Lagos, Nigeria (in small green text)
+
+2021, Group show
+Framing Her- Aworanka (link: https://www.aspireluxurymag.com/framing-her-an-art-exhibition-from-gaia-africa-and-aworanka/)
+Gaia Africa Club
+Lagos, Nigeria
+
+2021, Group show 
+Uber Art Install (link: https://www.instagram.com/bettershared/tv/CVQlSWSFXQb/?utm_medium=copy_link)
+BetterShared
+Uber HQ, London
+
+2021, Film Direction
+Dr. Akpofure (link: https://youtu.be/BZAaj6Sb8hg)
+Lagos, Nigeria
+
+2021, Film Direction
+Eyowo Unveil Commercial (link:)
+Lagos, Nigeria
+
+2021, Film Direction
+Ogonnah & Emeke Wedding Trailer (link: https://youtu.be/6PuV6lk8Lfk)
+PortHarcourt, Nigeria
+
+Under this section there should be a button that says Download full CV. If clicked it should download a pdf
+file i'll send to you later. Let me know if its too much work
+
+
+ACCLAIM
+This Section should begin with this quote, written in italics, before the testimonials.
+
+"Azuka�s incredibly thoughtful answers gave me a lot to consider. The thesis of her approach seems to be in this concept of �changing the order�
+ By changing the order of images � creating that element of surreality � Azuka challenges the order of her reality as well. The link to activism and changemaking becomes so clear!
+ 
+Azuka�s work is heavily influenced by her life. But it doesn�t only reflect. It distorts, and in doing so, it upends the societal narratives of marginalization. 
+In Azuka�s work, the semiotic process relies on confusion to succeed. It is her approach to habitus that I believe ties everything together.  In this way, the semiotic process plays a large part in her work as well.
+It is important to her what her audience will think of when they see her art.  It is important to her what it provokes and what it calls into question.
+The transmission of meaning is a key element to the intentions of her art, and the distortion is a key element of that transmission."
+-Andrew Kelly, Capybara Press
+
+-D
+
+AS SEEN ON
+I've added the logos to the folder. I made white versions of them for dark mode, while the blacks are for light mode. - D
+
+
+GET IN TOUCH - D
+Change My Contact Details to Purchase My Work
+Change EMAIL to PRINTS
+In the part where it says purchase my work on the blockchain, change the text to just NFTs, and the hyperlink to https://makersplace.com/azukamuoh/
+
+
+ARTIST STATEMENT
+Please change artist statement to About Azu. -  D
+
+Azuka Muoh was born in Lagos, Nigeria in 2000. Starting her career as a graphic and motion
+designer, Muoh has amassed a number of skills along the way. Depicting the human condition, cultural oppression
+and navigating new masculinity in the 21st century, Azuka ties her practice of surrealistic art and filmmaking into a
+single mantra; Changing The Order. - D
+
+I think this is all. Let me know if anything. Thanks!
+
+
+
+
