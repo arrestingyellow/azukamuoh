@@ -353,22 +353,22 @@ button.onclick = function() {
 // To different Location
 window.open('/archive.html', '_blank');
 }
-// var imageCollection = [
-// 	"'../images/hero/headerimg1.webp'",
-// 	"'../images/hero/headerimg2.webp'",
-// 	"'../images/hero/headerimg3.webp'",
-// 	"'../images/hero/headerimg4.webp'",
-// 	"'../images/hero/headerimg5.webp'",
-// 	"'../images/hero/headerimg6.webp'",
-// 	"'../images/hero/headerimg7.webp'",
-// 	"'../images/hero/headerimg8.webp'",
-// ]
-// // For changing Hero image
-// var imageHero = document.getElementById('section-home')
+var imageCollection = [
+	"'../images/hero/headerimg1.webp'",
+	"'../images/hero/headerimg2.webp'",
+	"'../images/hero/headerimg3.webp'",
+	"'../images/hero/headerimg4.webp'",
+	"'../images/hero/headerimg5.webp'",
+	"'../images/hero/headerimg6.webp'",
+	"'../images/hero/headerimg7.webp'",
+	"'../images/hero/headerimg8.webp'",
+]
+// For changing Hero image
+var imageHero = document.getElementById('section-home')
 
-// imageHero.style.backgroundImage = `url(${imageCollection[0]})`
-// console.log(imageHero.style.backgroundImage = `url(${imageCollection[0]})`)
-// setInterval(() => {
-// 	var randomNum = Math.floor(Math.random() * 7);
-// 	imageHero.style.backgroundImage = `url(${imageCollection[randomNum]})`
-// }, 3000);
+imageHero.style.backgroundImage = `url(${imageCollection[0]})`
+console.log(imageHero.style.backgroundImage = `url(${imageCollection[0]})`)
+setInterval(() => {
+	var randomNum = Math.floor(Math.random() * 7);
+	imageHero.style.backgroundImage = `url(${imageCollection[randomNum]})`
+}, 3000);
