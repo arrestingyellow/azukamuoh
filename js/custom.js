@@ -354,14 +354,14 @@ button.onclick = function() {
 window.open('/archive.html', '_blank');
 }
 var imageCollection = [
-	'/images/hero/headerimg1.webp',
-	'/images/hero/headerimg2.webp',
-	'/images/hero/headerimg3.webp',
-	'/images/hero/headerimg4.webp',
-	'/images/hero/headerimg5.webp',
-	'/images/hero/headerimg6.webp',
-	'/images/hero/headerimg7.webp',
-	'/images/hero/headerimg8.webp',
+	'images/hero/headerimg1.webp',
+	'images/hero/headerimg2.webp',
+	'images/hero/headerimg3.webp',
+	'images/hero/headerimg4.webp',
+	'images/hero/headerimg5.webp',
+	'images/hero/headerimg6.webp',
+	'images/hero/headerimg7.webp',
+	'images/hero/headerimg8.webp',
 ]
 // For changing Hero image
 var imageHero = document.getElementById('section-home')
