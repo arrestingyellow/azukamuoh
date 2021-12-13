@@ -651,15 +651,17 @@ a {
   .darkmode--activated .resume-item,
   .darkmode--activated .site-section .block-47-quote,
   .darkmode--activated .site-section .form-control,
-  .darkmode--activated .social-item
-  
-  {
+  .darkmode--activated .social-item  {
     background-color: #FFFCF8;
     /* outline: 1px solid #acacac  !important; */
     box-shadow:
-  0px 0.8px 2.1px rgba(0, 0, 0, 0.04),
-  0px 6px 17px rgba(0, 0, 0, 0.08)
-;
+    0px 0.8px 2.1px rgba(0, 0, 0, 0.04),
+    0px 6px 17px rgba(0, 0, 0, 0.08)
+    ;
+  }
+  .bg-change {
+    background-color: transparent !important;
+    
   }
   .darkmode--activated .site-section .block-47-quote::before {
     content: "";
@@ -671,6 +673,9 @@ a {
     border-style: solid;
     border-color: transparent #fff transparent transparent;
     /* border-top: 1px solid #acacac !important; */
+   }
+   .darkmode--activated a {
+     font-weight: 400;
    }
  /* Logos for as seen on */
  .logo {
