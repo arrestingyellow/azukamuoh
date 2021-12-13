@@ -1,5 +1,6 @@
 azu.ico
 desktop.ini
 main.html
-todo
+/todo
 node_modules
+.vercel

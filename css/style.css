@@ -146,7 +146,7 @@ a {
   /* background-image: url('../images/hero/headerimg1.webp') !important; */
   background-color: #ccc;
   background-size: center;
-  transition: 2s !important;
+  transition: 1.5s !important;
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
