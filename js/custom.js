@@ -370,5 +370,5 @@ imageHero.style.backgroundImage = `url(${imageCollection[0]})`
 console.log(imageHero.style.backgroundImage = `url(${imageCollection[0]})`)
 setInterval(() => {
 	var randomNum = Math.floor(Math.random() * 7);
-	imageHero.style.backgroundImage = `url(${imageCollection[randomNum]})`
+	imageHero.style.backgroundImage = `url(../${imageCollection[randomNum]}) !important`
 }, 3000);
