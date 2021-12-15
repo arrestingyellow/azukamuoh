@@ -1,0 +1,114 @@
+{
+    "artworks":[
+        {
+            "name": "A Big Nwa",
+            "year": 2021,
+            "img": "images/artworks/07.webp"
+        },
+        {
+            "name": "After You na You",
+            "year": 2021,
+            "img": "images/artworks/08.webp"
+        },
+        {
+            "name": "Ah Boy 2020",
+            "year": 2020,
+            "img": "images/artworks/09.webp"
+        },
+        {
+            "name": "Do You Know Who I Am",
+            "year": 2020,
+            "img": "images/artworks/10.webp"
+        },
+        {
+            "name": "In The Morning",
+            "year": 2021,
+            "img": "images/artworks/11.webp"
+        },
+        {
+            "name": "Mama Lawyer",
+            "year": 2020,
+            "img": "images/artworks/12.webp"
+        },
+        {
+            "name": "Maryland Waso",
+            "year": 2021,
+            "img": "images/artworks/13.jpg"
+        },
+        {
+            "name": "Masculinity and the Minority",
+            "year": 2020,
+            "img": "images/artworks/14.jpg"
+        },
+        {
+            "name": "Mmechi Anya 2020",
+            "year": 2020,
+            "img": "images/artworks/15.jpg"
+        },
+        {
+            "name": "Mmechi Onu",
+            "year": 2020,
+            "img": "images/artworks/16.jpg"
+        },
+        {
+            "name": "No Gender Roles",
+            "year": 2019,
+            "img": "images/artworks/17.jpg"
+        },
+        {
+            "name": "Nwa na Nna",
+            "year": 2021,
+            "img": "images/artworks/18.jpg"
+        },
+        {
+            "name": "Nwoke Bu Omalicha",
+            "year": 2020,
+            "img": "images/artworks/19.jpg"
+        },
+        {
+            "name": "To Become A Man",
+            "year": 2021,
+            "img": "images/artworks/20.webp"
+        },
+        {
+            "name": "Ulo",
+            "year": 2021,
+            "img": "images/artworks/21.jpg"
+        },
+        {
+            "name": "Umu Onwa",
+            "year": 2020,
+            "img": "images/artworks/22.jpg"
+        },
+        {
+            "name": "Untitled",
+            "year": 2020,
+            "img": "images/artworks/23.jpg"
+        },
+        {
+            "name": "Untitled",
+            "year": 2021,
+            "img": "images/artworks/24.jpg"
+        },
+        {
+            "name": "Untitled",
+            "year": 2020,
+            "img": "images/artworks/25.webp"
+        },
+        {
+            "name": "Untitled",
+            "year": 2021,
+            "img": "images/artworks/26.jpg"
+        },
+        {
+            "name": "Ututu",
+            "year": 2020,
+            "img": "images/artworks/27.webp"
+        },
+        {
+            "name": "Uwa Naele",
+            "year": 2021,
+            "img": "images/artworks/28.webp"
+        }
+    ]
+}

@@ -31,9 +31,10 @@ body {
   background: #000;
   color: #fff; }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h5 {
   color: #fff;
-  font-weight: 200; }
+  font-weight: 200; 
+}
 
 h2 {
   font-size: 25px; }
@@ -139,14 +140,16 @@ a {
         color: #bac964 !important; }
       .site-navbar.scrolled .navbar-nav > li > a.active {
         color: #bac964 !important; }
-    .site-navbar.scrolled .navbar-nav > li.active > a {
+    .site-navbar.scrolled .navbar-nav > li.active > a, .p-inner h4 {
       color: #bac964 !important; }
 @media (max-width: 768px) {
   .site-hero {    
-    background-image: url('../images/hero/headerimg1.webp') !important;
+    background-image: url('../images/hero/formobile1.jpg') !important;
+    background-size: cover;
   }
 }
 .site-hero {
+  background-image: url('../images/hero/headerimg2.webp') !important;
   background-color: #ccc;
   background-size: center;
   transition: 1.5s !important;
@@ -476,7 +479,9 @@ a {
       -webkit-transition: none;
       -o-transition: none;
       transition: none; } }
-
+h4 {
+  font-weight: 400 !important;
+}
 .resume-item {
   padding: 30px;
   background: #333;
@@ -636,8 +641,11 @@ a {
   .darkmode-toggle {
     z-index: 99 !important;
   }
+  .darkmode-toggle .p-inner h4 {
+    color: #b2c251 !important;
+    font-weight: 400 !important;
+  }
   .darkmode--activated .site-section h2,
-  .darkmode--activated h4, 
   .darkmode--activated h3, 
   .darkmode--activated .resume-item p,
   .darkmode--activated .resume-item .date,
