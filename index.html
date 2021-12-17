@@ -582,12 +582,11 @@
 							<div class="cat">2021</div>
 						</div>
 					</div>
-
-						
-				<div class="col-12 d-flex align-items-center bg-change" >
-					<button class="btn btn-primary px-4 py-2 mx-auto btn-sm" id="closearchive">Close</button>
-				</div>
-				
+					<div class="col-12 d-flex align-items-center bg-change" >
+						<a href="#section-resume" class="btn btn-primary px-4 py-2 mx-auto btn-sm" id="closearchive">Close</a>
+					</div>
+					
+					
 				</div>
 			</div>
 			
@@ -688,7 +687,7 @@
 		<div class="container">
 			<div class="row mb-5 align-items-center">
 				<div class="col-lg-7 pr-lg-5 mb-5 mb-lg-0">
-					<img src="images/hero/headerimg1.webp" alt="Image placeholder" class="img-fluid">
+					<img src="images/hero/headerimg7.webp" alt="Image placeholder" class="img-fluid">
 				</div>
 				<div class="col-lg-5 pl-lg-5">
 					<div class="section-heading">
@@ -964,13 +963,11 @@ const darkmode = new Darkmode(options);
 darkmode.showWidget();
 
 document.getElementById('archive').addEventListener('click', ()=> {
-
 	document.getElementById('artworks').style.display = 'flex'
 	document.getElementById('archive').style.display = 'none'
 })
 
 document.getElementById('closearchive').addEventListener('click', ()=> {
-
 	document.getElementById('artworks').style.display = 'none'
 	document.getElementById('archive').style.display = 'block'
 })
