@@ -13,3 +13,7 @@ Light Mode
 git add .
 git commit -m "Updates"
 git push 
+
+Comments Ctrl + /
+Terminal Ctrl + J
+Search Ctrl + F
