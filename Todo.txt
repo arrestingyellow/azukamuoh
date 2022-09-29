@@ -8,3 +8,8 @@ As seen on - Logos
 UNDONE
 Resume will be changed
 Light Mode
+
+
+git add .
+git commit -m "Updates"
+git push 
